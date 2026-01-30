@@ -3,35 +3,106 @@
 <head>
 <meta charset="UTF-8">
 <title>Fizzu — Gestão para Fisioterapeutas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+  background: linear-gradient(135deg,#0f172a,#1e293b);
+  color: #f1f5f9;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 24px;
+}
+
+.card {
+  background: #020617;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.4);
+}
+
+h1 {
+  font-size: 44px;
+  margin:0;
+}
+
+.subtitle {
+  font-size: 22px;
+  color:#38bdf8;
+  margin-top:10px;
+}
+
+.features {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap:18px;
+  margin-top:30px;
+}
+
+.feature {
+  background:#020617;
+  border:1px solid #1f2937;
+  padding:18px;
+  border-radius:12px;
+}
+
+.footer {
+  margin-top:40px;
+  font-size:14px;
+  color:#94a3b8;
+}
+
+a {
+  color:#38bdf8;
+  text-decoration:none;
+}
+
+.button {
+  display:inline-block;
+  margin-top:24px;
+  padding:14px 22px;
+  background:#38bdf8;
+  color:#020617;
+  border-radius:10px;
+  font-weight:600;
+}
+</style>
 </head>
+
 <body>
-<h1>Fizzu</h1>
 
-<h2>Tudo que o fisioterapeuta autônomo precisa em um só app</h2>
+<div class="container">
+  <div class="card">
+    <h1>Fizzu</h1>
+    <div class="subtitle">
+      Gestão completa para fisioterapeutas autônomos
+    </div>
 
-<p>
-O Fizzu é uma plataforma completa para fisioterapeutas autônomos gerenciarem
-agenda, prontuários e financeiro em um único lugar — com simplicidade,
-segurança e foco total no atendimento ao paciente.
-</p>
+    <p style="margin-top:24px;font-size:18px;">
+      Agenda, prontuário e financeiro em um único app.
+      Menos planilhas. Mais foco nos pacientes.
+    </p>
 
-<h3>Recursos</h3>
-<ul>
-<li>Agenda profissional integrada</li>
-<li>Prontuário de pacientes</li>
-<li>Controle financeiro</li>
-<li>Gestão de atendimentos</li>
-<li>Sincronização de calendário</li>
-</ul>
+    <div class="features">
+      <div class="feature">📅 Agenda profissional integrada</div>
+      <div class="feature">🗂 Prontuário de pacientes</div>
+      <div class="feature">💰 Controle financeiro</div>
+      <div class="feature">🔄 Sincronização de calendário</div>
+    </div>
 
-<p>
-Suporte: fnsc.negociosdigitais@gmail.com
-</p>
+    <a class="button" href="privacy.html">Política de Privacidade</a>
 
-<p>
-<a href="/privacy.html">Política de Privacidade</a><br>
-<a href="/terms.html">Termos de Uso</a>
-</p>
+    <div class="footer">
+      Suporte: fnsc.negociosdigitais@gmail.com<br><br>
+      <a href="terms.html">Termos de Uso</a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
